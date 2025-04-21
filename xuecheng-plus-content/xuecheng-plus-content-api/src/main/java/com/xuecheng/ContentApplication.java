@@ -10,10 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @description 内容管理服务启动类
  * @date 2023/2/11 15:49
  */
-@EnableSwagger2Doc
+@EnableSwagger2Doc//生成swagger接口文档
 @SpringBootApplication
-public class ContentApplication {
-    public static void main(String[] args) {
+public class  ContentApplication
+{
+    public static void main(String[] args)
+    {
         SpringApplication.run(ContentApplication.class, args);
     }
 }
